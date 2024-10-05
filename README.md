@@ -24,3 +24,13 @@ The **NLP-Driven Research Paper Analyzer** is a Python-based tool designed to ex
    ```bash
    git clone https://github.com/your-username/NLP-Driven-Research-Paper-Analyzer.git
    cd NLP-Driven-Research-Paper-Analyzer
+2. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Set up Google Sheets API and place your `credentials.json` file in the project directory.
+
+## Usage
+Run the script and enter the number of papers to process:
+```bash
+python main.py
